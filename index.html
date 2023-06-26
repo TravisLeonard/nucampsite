@@ -31,7 +31,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col span-xs span-md-4 span-lg-2">
-                    <a class="btn btn-teal bg-primary text-white btn-lg mt-4">Reserve Campsite</a>
+                    <a class="btn btn-teal bg-primary text-white btn-lg mt-4" href="#reserveCampsite" role="button">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -58,12 +58,13 @@
 
     <div class="container">
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-end">Discover & Review</h2>
-            </div>
-            <div class="col">
-                <div class="d-flex">
-                    <img class="me-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
+            <div class="align-self-center">
+               
+                
+                
+                <div class="col">
+                    <div class="d-flex">
+                        <img class="me-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
                     <div class="align-self-center">
                         <h3>Our Campsites</h3>
                         <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
@@ -99,21 +100,26 @@
             <div class="col-sm-4 col-md-3">
                 <img class="me-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
             </div>
-             <div class="row row-content align-items-center">
-           
             <div class="col">
                 <div class="d-flex">
-                    
-                    <div class="align-self-center">
-                        <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
-                    </div>
+                    <h3>Bootstrap Outfitters</h3>
+                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                 </div>
+            </div>
+            <div class="col-sm-4 order-sm-last col-md-3">
+                <h2 class="text-sm-end">Discover & Review</h2>
+            </div>
+        </div>
+
+            
+                    
+                   
 
                 <div class="row row-content">
                     <div class="col-sm-9 col-lg-5 mx-auto">
+                        <section id="reserveCampsite"></section>
                             <div class="card">
-                                <h3 class="bg-info text-light">Reserve a Campsite</h3>
+                                <h3 class="bg-info text-light" id="reserveCampsite">Reserve a Campsite</h3>
                                 <div class="card-body">
                                     <form action="" id="reserveForm">
                                         <div class="row mb-3">
@@ -138,7 +144,7 @@
                                             </div>
                                             <div class="row mb-3">
                                                 <div class="col">
-                                                    <button type="submit" class="btn btn-primary">Search</button>
+                                                    <button type="submit" class="btn btn-primary" id="button">Search</button>
                                                 </div>
 
                                             </div>
