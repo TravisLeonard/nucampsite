@@ -4,6 +4,7 @@
   "description": "This is a website for a fictional campsites review website, called Nucamp.",
   "main": "index.html",
   "scripts": {
+    "scss": "node-sass -o css/ css/",
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +12,9 @@
   "author": "TravisLeonard",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0",
+    "sass": "^1.63.6"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
