@@ -4,8 +4,8 @@
   "description": "This is a website for a fictional campsites review website, called Nucamp.",
   "main": "index.html",
   "scripts": {
-    "scss": "node-sass -o css/ css/",
     "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
