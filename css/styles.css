@@ -36,10 +36,10 @@ footer {
 .carousel {
   border: solid #5637dd; }
 
-#reserve header {
+#reserveModal .modal-header {
   background-color: #17A2b8;
   color: #CEC8FF; }
 
-#login header {
+#loginModal .modal-header {
   background-color: #17A2b8;
   color: #CEC8FF; }

@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,6 +23,9 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <title>Nucamp: A Better Way To Camp</title>
+
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
 </head>
 
 <body>
@@ -269,6 +278,9 @@
                             </div>
                         </div>
                     </div>
+
+
+
                     <div class="row row-content align-items-center">
                         <div class="col-sm-4 col-md-3">
                             <img class="me-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
@@ -280,12 +292,29 @@
                                     prices you can't beat.</p>
                             </div>
                         </div>
-                            <div class="col-sm-4 order-sm-last col-md-3">
-                                <div class="align-self-center"></div>
+                        <div class="col-sm-4 order-sm-last col-md-3">
+                            <div class="align-self-center"></div>
                                 <h2 class="text-sm-end">Our Community Partners</h2>
                             </div>
-                        
+                        </div>
                     </div>
+               
+                    <div class="row row-content align-items-start review-section mb-3">
+                        <div class="col-sm-4 col-md-3 order-sm-first">
+                            <h2 class="text-sm-end">What Are Happy Campers Saying?</h2>
+                        </div>
+                        <div class="col justify-content-center ms-lg-5">
+                            <img class="img-thumbnail img-fluid" src="img/img/happy-campers.png" alt="happy campers" />
+                        </div>
+                        <div class="col">
+                            <h3>So Worth It!</h3>
+                            <p>We love coming here to spot Twitters.</p>
+                        </div>
+                        <div class="row d-flex justify-content-center mt-5">
+                            <a role="button" class="btn btn-info btn-lg" data-bs-toggle="modal"
+                             data-bs-target="#reserveModal">Reserve Campsite</a>
+                        </div>
+        
                 </div>
 
                 <footer>
@@ -321,8 +350,10 @@
                     </div>
                 </footer>
 
-                <!-- Bootstrap JavaScript plugins.-->
-                <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+                <!-- Bootstrap JavaScript plugins-->
+                     <!-- build:js js/main.js -->
+                    <script src="js/bootstrap.bundle.js"></script>
+                    <!-- endbuild -->
 
 
                 <!-- Bootstrap JavaScript Tool Tips -->

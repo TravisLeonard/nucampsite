@@ -64,17 +64,8 @@ footer {
     border: solid $color-secondary;
 }
 
-#reserveModal {
-    .modal-header {
-        background-color: $color-teal;
-        color: $color-pale;
-    }
-}
 
-#loginModal {
-    .modal-header {
-        background-color: $color-teal;
-        color: $color-pale;
-    }
-}
 
+@import 'modal';
+
+@import 'review-section';
